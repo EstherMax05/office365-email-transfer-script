@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "office365-email-transfer-script"
+version = "0.1.0"
+description = "This is used to transfer emails from an office365 email to another email."
+authors = ["Esther M. <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+azure = "1.0.2"
+configparser = "3.7.2"
+requests = "2.27.1"
+azure-identity = "^1.17.1"
+schema = "^0.7.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

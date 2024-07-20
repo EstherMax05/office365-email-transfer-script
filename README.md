@@ -20,5 +20,5 @@ This file contains required configuration parameters. It requires the organizati
 3. Run `email_transfer_script.py` and follow the terminal instructions.
 
 ### Dependencies
-See poetry file.
+See `pyproject.toml`.
 
